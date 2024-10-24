@@ -1,0 +1,90 @@
+[+] Containers:
+ |- [+] Container: /Game/TopDown/Maps/TopDownMap
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:0C93DA37418AF00B0F3656B6B5DE77CA BaseClass: NativeClass:/Script/Engine.AmbientSound Name:AmbientSound_UAID_D8BBC1FAC5486A2502_1555821223 Label:Cue_BackgroundMusic SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1710.000 Y=1820.000 Z=0.000), Max=(X=1710.000 Y=1820.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:0E31FB0846485E6FA01DCEAA3B0E9DBD BaseClass:/Game/Enemies/BP_EliteEnemy.BP_EliteEnemy_C NativeClass:/Script/Engine.Character Name:BP_EliteEnemy_C_UAID_047C163743CC6B2502_2097069399 Label:BP_EliteEnemy SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1160.000 Y=920.000 Z=-212.000), Max=(X=2160.000 Y=1920.000 Z=788.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:147C8D134B12D635012D5F8C57D2C96F BaseClass: NativeClass:/Script/Engine.PostProcessVolume Name:PostProcessVolume_1 Label:PostProcessVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=400.000), Max=(X=200.000 Y=200.000 Z=600.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- Guid:1742DF43475F097453197AA79C7473D9 BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_1 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=690.000), Max=(X=0.000 Y=0.000 Z=690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- Guid:225FA05E487BD14367D12587C47423DD BaseClass:/Game/TopDown/Blueprints/BP_HealthPickUp.BP_HealthPickUp_C NativeClass:/Script/Engine.Actor Name:BP_HealthPickUp_C_UAID_D8BBC1FAC5483D2602_1624626360 Label:BP_HealthPickUp2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=937.200 Y=3197.200 Z=237.200), Max=(X=962.800 Y=3222.800 Z=262.800) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:2DF0D95440BE0EDA81652F860DC7268E BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:54EAE938466E33CA3772C8A38BA5CCA0 BaseClass:/Game/TopDown/Blueprints/BP_HealthPickUp.BP_HealthPickUp_C NativeClass:/Script/Engine.Actor Name:BP_HealthPickUp_C_UAID_D8BBC1FAC5483D2602_1619543359 Label:BP_HealthPickUp SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=897.200 Y=427.200 Z=217.200), Max=(X=922.800 Y=452.800 Z=242.800) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:5A0268B44985BAF39B89AEB03A08848F BaseClass:/Game/Enemies/BP_GruntEnemy.BP_GruntEnemy_C NativeClass:/Script/Engine.Character Name:BP_GruntEnemy_C_UAID_047C163743CC6B2502_2102142400 Label:BP_GruntEnemy SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=380.000 Y=1450.000 Z=-212.000), Max=(X=1380.000 Y=2450.000 Z=788.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:6252C7D64ACF162A73EE65B11FE214D1 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_1 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=1020.000), Max=(X=0.000 Y=0.000 Z=1020.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- Guid:66BCBF874D2A22ADC6523B95EE812CA3 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC5CFB00_1660657071 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1638400.000 Y=-1638400.000 Z=-1638400.000), Max=(X=1638400.000 Y=1638400.000 Z=1638400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- Guid:730D57964548E0F61EA8A5AB10227264 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C163743CC372802_1934556415 Label:Rectangle SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-24600.000 Y=-24100.000 Z=-500.000), Max=(X=25400.000 Y=25900.000 Z=-500.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:77F893B3468595EE782136AD620D7EF4 BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_0 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=820.000), Max=(X=0.000 Y=0.000 Z=820.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- Guid:9B73F3A14A7604EDF2E11EA75A06FB07 BaseClass:/Game/TopDown/Blueprints/BP_HealthPickUp.BP_HealthPickUp_C NativeClass:/Script/Engine.Actor Name:BP_HealthPickUp_C_UAID_D8BBC1FAC5483D2602_1632331362 Label:BP_HealthPickUp4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2357.200 Y=507.200 Z=227.200), Max=(X=2382.800 Y=532.800 Z=252.800) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:AECEEEE741E6DE68F6843FA49564A956 BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_1 Label:DirectionalLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1048576.000 Y=-1048576.000 Z=-1048576.000), Max=(X=1048576.000 Y=1048576.000 Z=1048576.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- Guid:CCDD89584E0A9025F52AEDA51D60CA54 BaseClass: NativeClass:/Script/NavigationSystem.NavMeshBoundsVolume Name:NavMeshBoundsVolume_1 Label:NavMeshBoundsVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-23500.000 Y=-23250.000 Z=-350.000), Max=(X=26500.000 Y=26750.000 Z=650.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Navigation FolderGuid:AE45D61F453CC144CF8289862C276E89
+ |   |   |- Guid:CD7E2CE044B52DA519EA109145906C3E BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_D8BBC1FAC548C92702_1663731060 Label:PlayerStart2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=960.000 Y=1560.000 Z=450.000), Max=(X=1040.000 Y=1640.000 Z=634.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:D24D61B944EF71BE7BC469B7EB239299 BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_1 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- Guid:ED702DEB4F4A6D94A5DB4F9C337C2079 BaseClass: NativeClass:/Script/Engine.TextRenderActor Name:TextRenderActor_0 Label:TextRenderActor SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-0.100 Y=1100.000 Z=65.013), Max=(X=-0.100 Y=2225.000 Z=215.013) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:F33CC5014C49925B3A9D52A063AF483F BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_0 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=960.000 Y=470.000 Z=300.013), Max=(X=1040.000 Y=550.000 Z=484.013) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:FB2F2B9D44B650E877C49BB9210225AA BaseClass:/Game/TopDown/Blueprints/BP_HealthPickUp.BP_HealthPickUp_C NativeClass:/Script/Engine.Actor Name:BP_HealthPickUp_C_UAID_D8BBC1FAC5483D2602_1628616361 Label:BP_HealthPickUp3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2647.200 Y=1807.200 Z=237.200), Max=(X=2672.800 Y=1832.800 Z=262.800) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:CCDD89584E0A9025F52AEDA51D60CA54 BaseClass: NativeClass:/Script/NavigationSystem.NavMeshBoundsVolume Name:NavMeshBoundsVolume_1 Label:NavMeshBoundsVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-23500.000 Y=-23250.000 Z=-350.000), Max=(X=26500.000 Y=26750.000 Z=650.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Navigation FolderGuid:AE45D61F453CC144CF8289862C276E89
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:9B73F3A14A7604EDF2E11EA75A06FB07 BaseClass:/Game/TopDown/Blueprints/BP_HealthPickUp.BP_HealthPickUp_C NativeClass:/Script/Engine.Actor Name:BP_HealthPickUp_C_UAID_D8BBC1FAC5483D2602_1632331362 Label:BP_HealthPickUp4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2357.200 Y=507.200 Z=227.200), Max=(X=2382.800 Y=532.800 Z=252.800) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:54EAE938466E33CA3772C8A38BA5CCA0 BaseClass:/Game/TopDown/Blueprints/BP_HealthPickUp.BP_HealthPickUp_C NativeClass:/Script/Engine.Actor Name:BP_HealthPickUp_C_UAID_D8BBC1FAC5483D2602_1619543359 Label:BP_HealthPickUp SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=897.200 Y=427.200 Z=217.200), Max=(X=922.800 Y=452.800 Z=242.800) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:6252C7D64ACF162A73EE65B11FE214D1 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_1 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=1020.000), Max=(X=0.000 Y=0.000 Z=1020.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:D24D61B944EF71BE7BC469B7EB239299 BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_1 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- [+] [  5]
+ |   |   |   |- Guid:77F893B3468595EE782136AD620D7EF4 BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_0 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=820.000), Max=(X=0.000 Y=0.000 Z=820.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- [+] [  6]
+ |   |   |   |- Guid:F33CC5014C49925B3A9D52A063AF483F BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_0 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=960.000 Y=470.000 Z=300.013), Max=(X=1040.000 Y=550.000 Z=484.013) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [  7]
+ |   |   |   |- Guid:147C8D134B12D635012D5F8C57D2C96F BaseClass: NativeClass:/Script/Engine.PostProcessVolume Name:PostProcessVolume_1 Label:PostProcessVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=400.000), Max=(X=200.000 Y=200.000 Z=600.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- [+] [  8]
+ |   |   |   |- Guid:0C93DA37418AF00B0F3656B6B5DE77CA BaseClass: NativeClass:/Script/Engine.AmbientSound Name:AmbientSound_UAID_D8BBC1FAC5486A2502_1555821223 Label:Cue_BackgroundMusic SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1710.000 Y=1820.000 Z=0.000), Max=(X=1710.000 Y=1820.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [  9]
+ |   |   |   |- Guid:5A0268B44985BAF39B89AEB03A08848F BaseClass:/Game/Enemies/BP_GruntEnemy.BP_GruntEnemy_C NativeClass:/Script/Engine.Character Name:BP_GruntEnemy_C_UAID_047C163743CC6B2502_2102142400 Label:BP_GruntEnemy SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=380.000 Y=1450.000 Z=-212.000), Max=(X=1380.000 Y=2450.000 Z=788.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 10]
+ |   |   |   |- Guid:225FA05E487BD14367D12587C47423DD BaseClass:/Game/TopDown/Blueprints/BP_HealthPickUp.BP_HealthPickUp_C NativeClass:/Script/Engine.Actor Name:BP_HealthPickUp_C_UAID_D8BBC1FAC5483D2602_1624626360 Label:BP_HealthPickUp2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=937.200 Y=3197.200 Z=237.200), Max=(X=962.800 Y=3222.800 Z=262.800) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 11]
+ |   |   |   |- Guid:ED702DEB4F4A6D94A5DB4F9C337C2079 BaseClass: NativeClass:/Script/Engine.TextRenderActor Name:TextRenderActor_0 Label:TextRenderActor SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-0.100 Y=1100.000 Z=65.013), Max=(X=-0.100 Y=2225.000 Z=215.013) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 12]
+ |   |   |   |- Guid:730D57964548E0F61EA8A5AB10227264 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_047C163743CC372802_1934556415 Label:Rectangle SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-24600.000 Y=-24100.000 Z=-500.000), Max=(X=25400.000 Y=25900.000 Z=-500.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 13]
+ |   |   |   |- Guid:AECEEEE741E6DE68F6843FA49564A956 BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_1 Label:DirectionalLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1048576.000 Y=-1048576.000 Z=-1048576.000), Max=(X=1048576.000 Y=1048576.000 Z=1048576.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- [+] [ 14]
+ |   |   |   |- Guid:2DF0D95440BE0EDA81652F860DC7268E BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 15]
+ |   |   |   |- Guid:FB2F2B9D44B650E877C49BB9210225AA BaseClass:/Game/TopDown/Blueprints/BP_HealthPickUp.BP_HealthPickUp_C NativeClass:/Script/Engine.Actor Name:BP_HealthPickUp_C_UAID_D8BBC1FAC5483D2602_1628616361 Label:BP_HealthPickUp3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=2647.200 Y=1807.200 Z=237.200), Max=(X=2672.800 Y=1832.800 Z=262.800) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 16]
+ |   |   |   |- Guid:CD7E2CE044B52DA519EA109145906C3E BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_D8BBC1FAC548C92702_1663731060 Label:PlayerStart2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=960.000 Y=1560.000 Z=450.000), Max=(X=1040.000 Y=1640.000 Z=634.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 17]
+ |   |   |   |- Guid:66BCBF874D2A22ADC6523B95EE812CA3 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC5CFB00_1660657071 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1638400.000 Y=-1638400.000 Z=-1638400.000), Max=(X=1638400.000 Y=1638400.000 Z=1638400.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |   |   |- [+] [ 18]
+ |   |   |   |- Guid:0E31FB0846485E6FA01DCEAA3B0E9DBD BaseClass:/Game/Enemies/BP_EliteEnemy.BP_EliteEnemy_C NativeClass:/Script/Engine.Character Name:BP_EliteEnemy_C_UAID_047C163743CC6B2502_2097069399 Label:BP_EliteEnemy SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1160.000 Y=920.000 Z=-212.000), Max=(X=2160.000 Y=1920.000 Z=788.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 19]
+ |   |   |   |- Guid:1742DF43475F097453197AA79C7473D9 BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_1 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=690.000), Max=(X=0.000 Y=0.000 Z=690.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:4C9334684BA61B42C769F799D2576455
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 0x0000000000000000
+ |   |-    Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/TopDown/Maps/TopDownMap
+----------------------------------------------------------------------------------------------------------------
+TopDownMap - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+Always loaded Actor Count: 30 
+
+----------------------------------------------------------------------------------------------------------------
+TopDownMap - Runtime Spatial Hash - Streaming Grid - MainGrid
+----------------------------------------------------------------------------------------------------------------
+            Origin: X=0.000 Y=0.000 Z=0.000
+         Cell Size: 12800
+      World Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+     Loading Range: 25600.00
+Block Slow Loading: No
+ ClientOnlyVisible: No
+
+[+] Grid Levels: 1
+ |- Level  0: Cell Count    0 | Cell Size   12800 | Actor Count    0 (0.0%)
+
+[+] Content of Grid Level 0
+
