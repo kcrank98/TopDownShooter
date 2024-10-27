@@ -1,12 +1,15 @@
 #################################
 # Unreal Engine Generated Files #
 #################################
-/[Bb]uild
-/[Bb]uilds
-/Binaries
-/DerivedDataCache
-/Intermediate
-/Saved
+/ProjectPortfolioV/[Bb]uild
+/ProjectPortfolioV/[Bb]uilds
+/ProjectPortfolioV/Binaries
+/ProjectPortfolioV/DerivedDataCache
+/ProjectPortfolioV/Intermediate
+/ProjectPortfolioV/Saved
+*.uasset
+*.log
+*.ini
 
 #################################
 # Visual Studio Generated Files #
@@ -35,5 +38,4 @@
 # Miscellaneous Generated Files #
 #################################
 # ADD AS NEED BE
-*.uasset
-*.log
+
