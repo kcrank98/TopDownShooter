@@ -1665,8 +1665,16 @@
 			"ChunkId": "86a1c677e66eb8b100000001"
 		},
 		{
+			"Path": "ProjectPortfolioV/Content/AnimStarterPack/Fire_Rifle_Ironsights_Montage.uasset",
+			"ChunkId": "8dec2cde821f5fb900000001"
+		},
+		{
 			"Path": "ProjectPortfolioV/Content/AnimStarterPack/Hit_React_1.uasset",
 			"ChunkId": "a91ddb52b643eb3500000001"
+		},
+		{
+			"Path": "ProjectPortfolioV/Content/AnimStarterPack/Hit_React_1_Montage.uasset",
+			"ChunkId": "1b0d6555cd6e255e00000001"
 		},
 		{
 			"Path": "ProjectPortfolioV/Content/AnimStarterPack/Hit_React_2.uasset",
@@ -2217,16 +2225,28 @@
 			"ChunkId": "5aed2199397bbc9a00000001"
 		},
 		{
-			"Path": "ProjectPortfolioV/Content/Enemies/Behavior/BT_BaseEnemy_Chase.uasset",
-			"ChunkId": "f90138a10537616d00000001"
+			"Path": "ProjectPortfolioV/Content/Enemies/Behavior/BT_Final.uasset",
+			"ChunkId": "5e076c9fb4cac2a000000001"
 		},
 		{
-			"Path": "ProjectPortfolioV/Content/Enemies/Behavior/BT_BaseEnemy_Wander.uasset",
-			"ChunkId": "c117eb32dccf6c4400000001"
+			"Path": "ProjectPortfolioV/Content/Enemies/Behavior/BTDecorator_InAttackRange.uasset",
+			"ChunkId": "fa435766bfbdc89f00000001"
 		},
 		{
 			"Path": "ProjectPortfolioV/Content/Enemies/Behavior/BTTASK_Attack.uasset",
 			"ChunkId": "8cb45d606f6ff8eb00000001"
+		},
+		{
+			"Path": "ProjectPortfolioV/Content/Enemies/Behavior/BTTask_ClearFocus.uasset",
+			"ChunkId": "5215b8827ce1698500000001"
+		},
+		{
+			"Path": "ProjectPortfolioV/Content/Enemies/Behavior/BTTask_FocusTarget.uasset",
+			"ChunkId": "cb85b59d1f5308be00000001"
+		},
+		{
+			"Path": "ProjectPortfolioV/Content/Enemies/Behavior/BTTask_SetMovementSpeed.uasset",
+			"ChunkId": "cdb14bc3393ae33900000001"
 		},
 		{
 			"Path": "ProjectPortfolioV/Content/Enemies/Behavior/BTTask_Wander.uasset",
@@ -2257,8 +2277,20 @@
 			"ChunkId": "66dd8a18877dfeda00000001"
 		},
 		{
+			"Path": "ProjectPortfolioV/Content/Enemies/BPI_EnemyAI.uasset",
+			"ChunkId": "028e484019fcb1cf00000001"
+		},
+		{
 			"Path": "ProjectPortfolioV/Content/Enemies/BS_EnemyBlendSpace.uasset",
 			"ChunkId": "177f3c733885354500000001"
+		},
+		{
+			"Path": "ProjectPortfolioV/Content/Enemies/Enums/E_AI_States.uasset",
+			"ChunkId": "d818d816b9c0d74700000001"
+		},
+		{
+			"Path": "ProjectPortfolioV/Content/Enemies/Enums/E_MovementSpeed.uasset",
+			"ChunkId": "abc7be81f28ae13b00000001"
 		},
 		{
 			"Path": "ProjectPortfolioV/Content/Enemies/PS_GrenadeExplosion.uasset",
@@ -4449,6 +4481,12 @@
 			]
 		},
 		{
+			"Name": "/Game/AnimStarterPack/Fire_Rifle_Ironsights_Montage",
+			"ExportBundleChunkIds": [
+				"8dec2cde821f5fb900000001"
+			]
+		},
+		{
 			"Name": "/Game/AnimStarterPack/Hit_React_1",
 			"ExportBundleChunkIds": [
 				"a91ddb52b643eb3500000001"
@@ -4470,6 +4508,12 @@
 			"Name": "/Game/AnimStarterPack/Hit_React_4",
 			"ExportBundleChunkIds": [
 				"8acc23b83279881300000001"
+			]
+		},
+		{
+			"Name": "/Game/AnimStarterPack/Hit_React_1_Montage",
+			"ExportBundleChunkIds": [
+				"1b0d6555cd6e255e00000001"
 			]
 		},
 		{
@@ -5151,21 +5195,39 @@
 			]
 		},
 		{
-			"Name": "/Game/Enemies/Behavior/BT_BaseEnemy_Chase",
+			"Name": "/Game/Enemies/Behavior/BT_Final",
 			"ExportBundleChunkIds": [
-				"f90138a10537616d00000001"
+				"5e076c9fb4cac2a000000001"
 			]
 		},
 		{
-			"Name": "/Game/Enemies/Behavior/BT_BaseEnemy_Wander",
+			"Name": "/Game/Enemies/Behavior/BTDecorator_InAttackRange",
 			"ExportBundleChunkIds": [
-				"c117eb32dccf6c4400000001"
+				"fa435766bfbdc89f00000001"
 			]
 		},
 		{
 			"Name": "/Game/Enemies/Behavior/BTTASK_Attack",
 			"ExportBundleChunkIds": [
 				"8cb45d606f6ff8eb00000001"
+			]
+		},
+		{
+			"Name": "/Game/Enemies/Behavior/BTTask_ClearFocus",
+			"ExportBundleChunkIds": [
+				"5215b8827ce1698500000001"
+			]
+		},
+		{
+			"Name": "/Game/Enemies/Behavior/BTTask_FocusTarget",
+			"ExportBundleChunkIds": [
+				"cb85b59d1f5308be00000001"
+			]
+		},
+		{
+			"Name": "/Game/Enemies/Behavior/BTTask_SetMovementSpeed",
+			"ExportBundleChunkIds": [
+				"cdb14bc3393ae33900000001"
 			]
 		},
 		{
@@ -5211,9 +5273,27 @@
 			]
 		},
 		{
+			"Name": "/Game/Enemies/BPI_EnemyAI",
+			"ExportBundleChunkIds": [
+				"028e484019fcb1cf00000001"
+			]
+		},
+		{
 			"Name": "/Game/Enemies/BS_EnemyBlendSpace",
 			"ExportBundleChunkIds": [
 				"177f3c733885354500000001"
+			]
+		},
+		{
+			"Name": "/Game/Enemies/Enums/E_AI_States",
+			"ExportBundleChunkIds": [
+				"d818d816b9c0d74700000001"
+			]
+		},
+		{
+			"Name": "/Game/Enemies/Enums/E_MovementSpeed",
+			"ExportBundleChunkIds": [
+				"abc7be81f28ae13b00000001"
 			]
 		},
 		{
