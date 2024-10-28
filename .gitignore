@@ -7,9 +7,12 @@
 /ProjectPortfolioV/DerivedDataCache
 /ProjectPortfolioV/Intermediate
 /ProjectPortfolioV/Saved
+<<<<<<< Updated upstream
 *.uasset
 *.log
 *.ini
+=======
+>>>>>>> Stashed changes
 
 #################################
 # Visual Studio Generated Files #
@@ -33,6 +36,7 @@
 .vscode
 # VSCode History Files
 **/.history
+*.ini
 
 #################################
 # Miscellaneous Generated Files #
